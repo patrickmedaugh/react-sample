@@ -11,9 +11,9 @@
   },
   "scripts": {
     "start": "react-scripts build && react-scripts test && react-scripts start",
-    "lint": "eslint \"**/*.{js,jsx}\" --quiet",
+    "lint": "node_modules/eslint/bin/eslint.js \"**/*.{js,jsx}\" --quiet",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "node_modules/jest/bin/jest.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
