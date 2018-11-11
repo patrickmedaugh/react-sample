@@ -4,9 +4,9 @@ pipeline {
         PATH='/usr/local/bin'
     }
     stages {
-        stage('build') {
+        stage('lint') {
             steps {
-                sh 'npm run build'
+                sh 'npm run lint'
             }
         }
         stage('test') {

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "eslint": "^5.9.0",
     "jest": "^23.6.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
@@ -10,6 +11,7 @@
   },
   "scripts": {
     "start": "react-scripts build && react-scripts test && react-scripts start",
+    "lint": "eslint \"**/*.{js,jsx}\" --quiet",
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject"
